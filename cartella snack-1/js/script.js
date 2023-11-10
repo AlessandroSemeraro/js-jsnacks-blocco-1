@@ -1,8 +1,17 @@
 //chiedere all'utente con due prompt gli anni di due persone e comunicare quale delle due è più grande//
 
-const userFirstAge = prompt('how old are you?');
+const userMomAge = prompt('how old is your mother?');
 
 
-const userSecondAge = prompt('how old are you?');
+const userDadAge = prompt('how old is your father?');
 
-if ()
+if ( userMomAge > userDadAge ) {
+
+   console.log ('my mom is' + userMomAge + 'old') 
+ }
+
+ else if ( userMomAge > userDadAge ) {
+    
+    console.log ('my dad is' + userDadAge + 'old')
+
+} 
