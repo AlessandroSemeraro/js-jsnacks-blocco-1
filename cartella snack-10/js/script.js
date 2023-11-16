@@ -3,5 +3,5 @@ const numberX=document.getElementById("random-number").innerHTML = Math.floor(Ma
 const button = document.getElementById('button');
 
 button.addEventListener("click", function() {
-    numberX + 3;
+    console.log('button clicked')
   }); 
