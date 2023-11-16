@@ -8,6 +8,6 @@ if( userFirstWord.length > userSecondWord.length){
     console.log('userFirstWord');
     console.log('userSecondWord');
 }else if ( userFirstWord.length < userSecondWord.length){
-    console.log('userFirstWord');
     console.log('userSecondWord');
+    console.log('userFirstWord');
 }
